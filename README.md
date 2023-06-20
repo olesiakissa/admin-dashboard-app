@@ -1,2 +1,2 @@
-# admin-dashboard-app
-A React application with theming using Syncfusion components
+# Admin Dashboard React App
+A React application with theming, using material ui components and nivo charts
