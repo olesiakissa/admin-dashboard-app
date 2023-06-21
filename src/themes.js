@@ -79,7 +79,7 @@ export const colorTokens = (mode) => ({
         100: "#040509",
         200: "#080b12",
         300: "#0c101b",
-        400: "#101624",
+        400: "#f2f0f0", // old: 101624 (fix color on theme switching)
         500: "#141b2d",
         600: "#434957",
         700: "#727681",
@@ -193,11 +193,7 @@ export const themeSettings = (mode) => {
 };
 
 // context for color mode
-export const ColorModeContext = createContext({
-    toggleColorMode : () => {
-
-    }
-});
+export const ColorModeContext = createContext({ toggleColorMode : () => {} });
 
 export const useMode = () => {
     const [mode, setMode] = useState("dark");
