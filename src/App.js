@@ -10,10 +10,10 @@ import Invoices          from './scenes/invoices/Invoices';
 import Form              from './scenes/form/Form';
 import Calendar          from './scenes/calendar/Calendar'
 import FAQ               from './scenes/faq/FAQ';
-// import Bar               from './scenes/bar';
-// import Line              from './scenes/line';
-// import Pie               from './scenes/pie';
-// import Geography         from './scenes/geography';
+import BarChart          from './scenes/charts/BarChart';
+import PieChart          from './scenes/charts/PieChart';
+import LineChart         from './scenes/charts/LineChart';
+import GeographyChart         from './scenes/charts/GeographyChart';
 
 
 const App = () => {
@@ -35,10 +35,10 @@ const App = () => {
               <Route path='/form'       element={ <Form /> } />
               <Route path='/calendar'   element={ <Calendar /> } />
               <Route path='/faq'        element={ <FAQ /> } />
-              {/* <Route path='/bar'        element={ <Bar /> } /> */}
-              {/* <Route path='/line'       element={ <Line /> } /> */}
-              {/* <Route path='/pie'        element={ <Pie /> } /> */}
-              {/* <Route path='/geography'  element={ <Geography /> } /> */}
+              <Route path='/bar'        element={ <BarChart /> } />
+              <Route path='/pie'        element={ <PieChart /> } />
+              <Route path='/line'       element={ <LineChart /> } />
+              <Route path='/geography'  element={ <GeographyChart /> } />
             </Routes>
           </main>
         </div>
