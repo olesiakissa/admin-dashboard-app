@@ -13,7 +13,7 @@ import FAQ               from './scenes/faq/FAQ';
 import BarChart          from './scenes/charts/BarChart';
 import PieChart          from './scenes/charts/PieChart';
 import LineChart         from './scenes/charts/LineChart';
-import GeographyChart         from './scenes/charts/GeographyChart';
+import GeographyChart    from './scenes/charts/GeographyChart';
 
 
 const App = () => {
